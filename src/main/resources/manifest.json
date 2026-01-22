@@ -1,14 +1,16 @@
 {
-    "Group": "Example",
-    "Name": "ExamplePlugin",
-    "Version": "0.0.2",
+    "Group": "QAS",
+    "Name": "WaterEternal",
+    "Version": "1.0.0",
     "Description": "An example plugin for HyTale!",
     "Authors": [
         {
-            "Name": "It's you!"
+            "Name": "Nicolas Cribb",
+            "Website": "https://www.linkedin.com/in/cribb-barbaro-nicolas/",
+            "Email": "cribbnicolas26@gmail.com"
         }
     ],
-    "Website": "example.org",
+    "Website": "Not Yet Available",
     "ServerVersion": "*",
     "Dependencies": {
         
@@ -17,6 +19,6 @@
         
     },
     "DisabledByDefault": false,
-    "Main": "org.example.plugin.ExamplePlugin",
+    "Main": "org.QAS.WaterEternal.Main",
     "IncludesAssetPack": true
 }
