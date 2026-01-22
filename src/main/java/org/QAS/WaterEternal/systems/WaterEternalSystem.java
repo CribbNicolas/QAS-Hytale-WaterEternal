@@ -53,17 +53,12 @@ public class WaterEternalSystem extends RefChangeSystem<EntityStore, WaterEterna
                 pos.z + offset.z
         );
 
-        Vector3i blockPos = new Vector3i(pos.x, pos.y, pos.z);
 
-        int blockId = world.getBlock(blockPos);
-
-        LOGGER.atInfo().log("blockId: %d", blockId);
-
-//        ParticleUtil.spawnParticleEffect(
-//                component.getParticleSystemId(),
-//                worldPos,
-//                commands
-//        );
+        ParticleUtil.spawnParticleEffect(
+                component.getParticleSystemId(),
+                worldPos,
+                commands
+        );
     }
 
     @Override
